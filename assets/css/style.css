@@ -2890,6 +2890,7 @@ p {
   .testimonial-area .testimonial-left-content .title {
     font-size: 32px;
     padding-top: 10px;
+    text-align: center;
     color: #121212; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .testimonial-area .testimonial-left-content .title {
@@ -2923,7 +2924,7 @@ p {
     -moz-box-shadow: 0px 30px 70px 0px rgba(0, 0, 0, 0.07);
     box-shadow: 0px 30px 70px 0px rgba(0, 0, 0, 0.07);
     border-radius: 50px;
-    max-width: 500px;
+    max-width: 800px;
     padding-top: 50px; }
     .testimonial-area .testimonial-right-content .quota {
       position: absolute;
