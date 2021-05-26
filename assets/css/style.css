@@ -2455,8 +2455,9 @@ p {
         .slider-content .slider-btn li {
           margin: 16px 3px 0; } }
       .slider-content .slider-btn li a.rounded-one {
-        background-color: #000;
-        border-color: #f0e68c; }
+        background-color: #daa520;
+        color: #000;
+        border-color: #daa520; }
         .slider-content .slider-btn li a.rounded-one:hover {
           background-color: transparent;
           color: #fff; }
@@ -2564,6 +2565,10 @@ p {
         font-size: 24px;
         line-height: 35px; } }
     @media (max-width: 767px) {
+      .features-area {
+        padding-top: 40px;
+      }
+
       .single-features .features-title-icon .features-title a {
         font-size: 24px;
         line-height: 35px; } }
@@ -2640,6 +2645,9 @@ p {
       font-size: 14px;
       padding: 0 26px; } }
   @media (max-width: 767px) {
+    .portfolio-area {
+      padding-top: 40px;
+    }
     .portfolio-menu ul li {
       font-size: 14px;
       padding: 0 22px;
@@ -2775,6 +2783,9 @@ p {
           font-size: 14px;
           margin-top: 12px; } }
       @media (max-width: 767px) {
+        .pricing-area {
+          padding-top: 40px;
+        }
         .pricing-style .pricing-list ul li {
           font-size: 14px;
           margin-top: 12px; } }
@@ -2809,6 +2820,9 @@ p {
     color: #0067f4;
     text-transform: uppercase; }
     @media (max-width: 767px) {
+      .about-area {
+        padding-top: 30px;
+      }
       .about-area .about-title .sub-title {
         font-size: 16px; } }
   .about-area .about-title .title {
@@ -2876,7 +2890,7 @@ p {
 ===========================*/
 /*===== TESTIMONIAL STYLE THREE =====*/
 .testimonial-area {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 130px;
   background-color: #f4f6f7; }
   .testimonial-area .testimonial-left-content .sub-title {
@@ -2896,6 +2910,9 @@ p {
       .testimonial-area .testimonial-left-content .title {
         font-size: 30px; } }
     @media (max-width: 767px) {
+      .testimonial-area {
+        padding-top: 20px;
+      }
       .testimonial-area .testimonial-left-content .title {
         font-size: 24px; } }
   .testimonial-area .testimonial-left-content .testimonial-line {
@@ -3047,7 +3064,7 @@ p {
     transition: all 0.3s ease-out 0s; }
     @media (max-width: 767px) {
       .team-style-eleven .team-content {
-        padding-top: 15px;
+        padding-top: 10px;
         padding-bottom: 15px; } }
     .team-style-eleven .team-content::before {
       position: absolute;
@@ -3157,6 +3174,9 @@ p.form-message.success, p.form-message.error {
   width: 100%;
   height: 550px; }
   @media (max-width: 767px) {
+    .contact-area {
+      padding-top: 40px;
+    }
     .contact-map iframe {
       height: 350px; } }
 
